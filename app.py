@@ -18,7 +18,7 @@ server = app.server
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
 
-data = pd.read_csv("nama_10_gdp_1_data.csv", sep="," )
+data = pd.read_csv("nama_10_gdp_1_Data.csv", sep="," )
 data = data[(data.GEO != 'European Union (current composition)') & (data.GEO != 'European Union (without United Kingdom)') & 
         (data.GEO != 'European Union (15 countries)') & 
         (data.GEO != 'Euro area (EA11-2000, EA12-2006, EA13-2007, EA15-2008, EA16-2010, EA17-2013, EA18-2014, EA19)') &
