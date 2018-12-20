@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[7]:
 
 
 #The first one will be a scatterplot with 
@@ -158,5 +158,5 @@ def update_graph(country_name, yaxis_column_name):
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=False)
 
